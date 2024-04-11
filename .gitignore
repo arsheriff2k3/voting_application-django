@@ -1,0 +1,27 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+
+# Backup files
+*~
+
+# Virtual environment
+venv/
+venv*/
+
+# Django development files
+*.log
+db.sqlite3
+media/
+staticfiles/
+.env
+lib/
+Scripts/
+
+# Ignore local settings
+myvoting/local_settings.py
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
